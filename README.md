@@ -1,4 +1,4 @@
-# Multiple-Document-Chat with Langchain, OpenAI, and HuggingFace
+# Multiple Document Chat with Langchain, OpenAI, and HuggingFace
 
 In this project, we are going implement a multiple document question and answer
 We can import many PDFs and chat using OpenAI or HuggingFace API
@@ -24,10 +24,8 @@ In order to achieve a great result, we will use the best available technologies 
 3. Install the requirements -> pip install requirements.txt
 4. Generate your access tokens on OpenAI and HuggingFace account
 5. Create a file called ".env" and insert the bellow info:
-   OPENAI_API_KEY='your_key'
-      
-   HUGGINGFACEHUB_API_TOKEN='your_key'
-
+   5.1 OPENAI_API_KEY='your_key'      
+   5.2 HUGGINGFACEHUB_API_TOKEN='your_key'
 6. Execute streamlit at terminal -> streamlit run app.py
 7. Just use it on browser
 8. Load the files on the sidebar
