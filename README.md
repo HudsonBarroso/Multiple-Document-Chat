@@ -24,13 +24,14 @@ In order to achieve a great result, we will use the best available technologies 
 3. Install the requirements -> pip install requirements.txt
 4. Generate your access tokens on OpenAI and HuggingFace account
 5. Create a file called ".env" and insert the bellow info:
-   5.1 OPENAI_API_KEY='your_key'      
+   
+   5.1 OPENAI_API_KEY='your_key'         
    5.2 HUGGINGFACEHUB_API_TOKEN='your_key'
-6. Execute streamlit at terminal -> streamlit run app.py
-7. Just use it on browser
-8. Load the files on the sidebar
-9. Click on a 'process' button to process the documents
-10. Start chatting   
+7. Execute streamlit at terminal -> streamlit run app.py
+8. Just use it on browser
+9. Load the files on the sidebar
+10. Click on a 'process' button to process the documents
+11. Start chatting   
 
 ## Next Steps
 1. Test other APIs and Embeddings
